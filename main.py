@@ -1,13 +1,13 @@
 import keyboard
 import time
 
-print("Any time you press 'ctrl+alt+d', the bot will delete your last message.")
+print("Any time you press 'ctrl+x', the bot will delete your last message.")
 
 pause = 0.15
 
 
 def delete(key):
-    if keyboard.is_pressed("ctrl+alt+d"):
+    if keyboard.is_pressed("ctrl+x"):
         time.sleep(pause)
 
         print("deleting")
